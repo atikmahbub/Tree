@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: snow;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+
+}
+.company-card-container{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.company-card{
+    width: 70%;
+    background-color: snow;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2), 0px 3px 4px 0px rgba(0,0,0,0.14), 0px 1px 8px 0px rgba(0,0,0,0.12)
+}
+
+.company-name-div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgb(170, 168, 168);
+    width: 100%;
+}
+
+.area-name-div{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h3{
+    margin-left: 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.area-text{
+    font-size: 1.3rem;
+    margin-left: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.job-area-content , .employee-area , .project-item-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.job-area-content-item , .employee-name{
+    padding: 13px;
+    background-color: rgb(230, 227, 227);
+    margin-right: 5px;
+    margin-bottom: 3px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.employee-name{
+
+    background-color: rgb(240, 239, 239);
+}
+.area-name-modal{
+    display: flex;
+    margin-left: 4px;
+    padding-top: 10px;
+    width: 100%;
+    flex: 1;
+    font-weight: 500;
+}
+
+.Modal {
+    position: absolute;
+    width: 70%;
+    outline: 2px double tomato;
+    overflow: hidden;
+    overflow-x: hidden;
+    top : 50%;
+    left : 50% ;
+    background-color: white;
+    transform : translate(-50%, -50%);
+    border: none !important;
+    border-radius: 5px;
+    padding: 30px;
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color :  rgba(255, 255, 255, 0.75);
+  }
+
+  .project-text-div{
+      display: flex;
+      align-items: center;
+      padding-top: 10px;
+  }
+
+  .employee-item-info{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .employee-item-info div{
+      width: 100%;
+      padding: 15px;
+      font-weight: 700;
+  }
+
+  .job-number{
+      text-transform: uppercase;
+      font-weight: 900;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .job-number h1{
+      color: tomato;
+      padding: 10px;
+      font-weight: 900;
+  }
+
+  .pr-pill{
+      padding: 10px;
+      background-color: rgb(230, 227, 227);
+      margin-right: 5px;
+      margin-bottom: 3px;
+      border-radius: 15px;
+      cursor: pointer;
+  }
